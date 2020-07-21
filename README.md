@@ -22,7 +22,7 @@ Practice scenario/scenario outlines with example tables
      
 ### Login Requirements:
  
-  utilities.User Navigates to Digital Bank login page: http://dbankdemo.com/login
+  User Navigates to Digital Bank login page: http://dbankdemo.com/login
   
 A. Fill out login credential:
 * The customer will enter the following information to login UserName(Email address) and Password
@@ -42,7 +42,7 @@ C. Error message for invalid credentials:
 * Email VALID, password INVALID:  Message: Invalid credentials or access not granted.
 * Email INVALID, password VALID: Message: Invalid credentials or access not granted.
 * Email INVALID, password INVALID: Message: Invalid credentials or access not granted.
-* Email VALID, password VALID: Message: Access granted. utilities.User redirected to Digital Bank Home page
+* Email VALID, password VALID: Message: Access granted. .User redirected to Digital Bank Home page
 
 
 
@@ -51,7 +51,7 @@ C. Error message for invalid credentials:
 ---------
 ### Account Creation Requirements:
 
-utilities.User Navigates to Digital Bank login page: http://dbankdemo.com/signup
+User Navigates to Digital Bank login page: http://dbankdemo.com/signup
 
 A. Fill out account creation fileds:
 * Title: Dropdown. Selection options: Mr., Ms., Mrs.
@@ -65,7 +65,7 @@ A. Fill out account creation fileds:
  and at least 8 or more characters.
 * Confirm Password:  Input field. Password should match with the input in Password field.
  
- After completing first part of account creation, utilities.User will be redirected to second part to fill out Address information.
+ After completing first part of account creation, .User will be redirected to second part to fill out Address information.
  
 * Address: Input field. ex. 123 Digital Lane
 * Locality: Input field. ex. Internet City
@@ -76,12 +76,12 @@ A. Fill out account creation fileds:
 * Moble Phone: Input field. ex. (547) 392-5436
 * Work Phone: Input field. ex. (547) 392-5436
 
-After utilities.User filled out Address and Contact information, 
-utilities.User should accept: Agree the terms and policy (check the checkbox)
-And utilities.User should click on Register button
-Then utilities.User should be redirected to register page: http://dbankdemo.com/register
-And utilities.User should see "Success Registration Successful. Please Login." message
-And utilities.User should enter valid Password and Sign in 
+After .User filled out Address and Contact information, 
+.User should accept: Agree the terms and policy (check the checkbox)
+And .User should click on Register button
+Then .User should be redirected to register page: http://dbankdemo.com/register
+And .User should see "Success Registration Successful. Please Login." message
+And .User should enter valid Password and Sign in 
 
 
 

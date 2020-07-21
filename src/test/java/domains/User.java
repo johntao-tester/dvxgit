@@ -1,4 +1,4 @@
-package utilities;
+package domains;
 
 /**
  * This class will be used for Cucumber DataTable mapping.
